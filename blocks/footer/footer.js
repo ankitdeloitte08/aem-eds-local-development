@@ -28,6 +28,8 @@ function toggleStoreDropdown(sections, expanded = false) {
  * @param {Element} block The footer block element
  */
 export default async function decorate(block) {
+  console.log('decorating footer for main-backup branch');
+  alert('decorating footer for main-backup branch');
   const root = getRootPath();
   // Load Footer as Fragment
   const footerMeta = getMetadata('footer');
